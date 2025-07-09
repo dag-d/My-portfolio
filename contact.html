@@ -6,6 +6,40 @@
     <title>Document</title>
  </head>
  <body>
-    
+    <header>
+        <nav>   
+        <a href="index.html">Home</a>
+        <a href ="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        </nav> 
+    </header>
+     <section>
+    <h2>Reach Out</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" required /><br>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" /><br>
+
+      <label for="age">Age:</label>
+      <input type="number" id="age" /><br>
+
+      <p>Gender:</p>
+      <input type="radio" id="male" name="gender" />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" />
+      <label for="female">Female</label><br>
+
+      <p>Subscribe?</p>
+      <input type="checkbox" id="subscribe" />
+      <label for="subscribe">Yes, please!</label><br>
+
+      <label for="satisfaction">Rate this site:</label>
+      <input type="range" id="satisfaction" min="1" max="10" /><br>
+
+      <button type="submit">submit</button>
+    </form>
+  </section>
  </body>
  </html>
